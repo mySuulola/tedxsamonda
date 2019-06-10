@@ -1,0 +1,10 @@
+.carousel-inner img {
+  height: 70vh !important ;
+}
+
+.text-red {
+  color: red;
+}
+.bg-red {
+  background-color: rgb(255, 106, 106);
+}
