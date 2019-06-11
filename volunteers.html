@@ -44,8 +44,8 @@
   </head>
   <body>
     <div class="volunteers bg-light">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5">
-        <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="./index.html">
           <img
             src="https://res.cloudinary.com/dxmewvier/image/upload/v1560120390/texxx.png"
             alt=""
@@ -70,12 +70,13 @@
             <a class="nav-item nav-link  text-uppercase" href="./index.html"
               >Home
             </a>
-            <a class="nav-item nav-link text-uppercase" href="#">our team</a>
-            <a class="nav-item nav-link text-uppercase" href="#">Sponsors</a>
-            <a
-              class="nav-item nav-link text-uppercase"
-              aria-disabled="true"
-              ref="#"
+            <a class="nav-item nav-link text-uppercase disabled" href="#"
+              >our team</a
+            >
+            <a class="nav-item nav-link text-uppercase disabled " href="#"
+              >Sponsors</a
+            >
+            <a class="nav-item nav-link text-uppercase disabled " href="#"
               >blog</a
             >
             <a
@@ -89,6 +90,17 @@
       </nav>
 
       <div class="volunteer-form">
+        <div class="register ">
+          <div class="container-fluid  p-4 bg-red mb-5">
+            <div class="col-8">
+              <div class="text-center">
+                <p class="text-white text-justify" style="font-size: 25px;">
+                  We will be glad to have you as part of our team
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="container">
           <div class="row">
             <div class="offset-1 col-sm-10 col-md-8">
@@ -156,24 +168,26 @@
                     id="experienceWithTED"
                     rows="3"
                   ></textarea>
-                  <small id="emailHelp" class="form-text text-muted">Have you watched the videos? Attended TED or TEDx events either here, around town, or somewhere else?</small>
-
+                  <small id="emailHelp" class="form-text text-muted"
+                    >Have you watched the videos? Attended TED or TEDx events
+                    either here, around town, or somewhere else?</small
+                  >
                 </div>
 
-
                 <div class="form-group">
-                  <label for="aboutMe"
-                    > Tell us a little about who you are. </label
-                  >
+                  <label for="aboutMe">
+                    Tell us a little about who you are.
+                  </label>
                   <textarea
                     class="form-control"
                     id="aboutMe"
                     rows="3"
                   ></textarea>
-
                 </div>
                 <div class="form-group ">
-                  <label for="inputState">How would you like to participate</label>
+                  <label for="inputState"
+                    >How would you like to participate</label
+                  >
                   <select id="inputState" class="form-control">
                     <option selected>Choose...</option>
                     <option> Branding and Communication </option>
@@ -192,15 +206,25 @@
       </div>
       <section id="footer" class="mt-5 bg-dark">
         <div class="container">
-          <div class="row fill-40-viewport py-5 text-white-70 align-items-center">
+          <div
+            class="row fill-40-viewport py-5 text-white-70 align-items-center"
+          >
             <div class="col-12 col-md-4 order-sm-last order-md-first">
               <ul class="list-unstyled">
                 <li class="">
-                  <h6 class="text-white"> &copy; 2019 TEDx Samonda </h6>
+                  <h6 class="text-white">&copy; 2019 TEDx Samonda</h6>
                 </li>
-                <li class="text-white">This independent TEDx event is operated under license from TED. Visit
-                  <a href="https://www.ted.com/" class="text-red" target="_blank" rel="noopener noreferrer">TED</a> for more
-                  info.
+                <li class="text-white">
+                  This independent TEDx event is operated under license from
+                  TED. Visit
+                  <a
+                    href="https://www.ted.com/"
+                    class="text-red"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >TED</a
+                  >
+                  for more info.
                 </li>
               </ul>
             </div>
@@ -213,7 +237,6 @@
                 <li class="text-red">Blog</li>
                 <li class="text-red">Meet the Team</li>
                 <li class="text-red">Partners</li>
-      
               </ul>
             </div>
             <!-- <div class="col-12 col-md-2">
@@ -229,23 +252,51 @@
                   </div> -->
             <div class="col-12 col-md-2">
               <ul class="list-unstyled d-flex ">
-      
-                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                <li class="">
+                  <a
+                    class="text-white"
+                    href="http://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fab fa-2x fa-facebook m-3" aria-hidden="true"></i>
-                  </a> </li>
-                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="text-white"
+                    href="http://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fab fa-2x fa-twitter m-3" aria-hidden="true"></i>
-                  </a> </li>
-                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="text-white"
+                    href="http://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fas fa-2x fa-envelope m-3" aria-hidden="true"></i>
-                  </a> </li>
-                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-2x fa-instagram m-3" aria-hidden="true"></i>
-                  </a> </li>
-      
+                  </a>
+                </li>
+                <li class="">
+                  <a
+                    class="text-white"
+                    href="http://facebook.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i
+                      class="fab fa-2x fa-instagram m-3"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </li>
               </ul>
             </div>
-      
           </div>
         </div>
       </section>
