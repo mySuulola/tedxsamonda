@@ -176,16 +176,16 @@
           <div class="jumbotron jumbotron-fluid">
             <div class="container text-center ">
               <h4 class="lead text-uppercase text-red p-3" style="font-size: 25px;" >Know a remarkable person doing great work?</h4>
-              <form class="d-flex justify-content-center">
+              <form  name="suggest-speaker-form" method="POST" data-netlify="true" class="d-flex justify-content-center">
                 <div class="form-row align-items-center text ">
                   <div class="col m-1">
                     <label class="sr-only" for="suggestedSpeaker">Name</label>
-                    <input type="text" class="form-control  " id="suggestedSpeaker" placeholder="Suggested Speaker Name">
+                    <input type="text" class="form-control" name="suggestedSpeaker" id="suggestedSpeaker" placeholder="Suggested Speaker Name">
                   </div>
                   
                   
                   <div class="col-auto my-1">
-                  <button href="#" disabled class="btn bg-red text-uppercase lead text-white"> suggest a speaker </button>
+                  <button role="button" class="btn bg-red text-uppercase lead text-white"> suggest a speaker </button>
 
                   </div>
                 </div>
