@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="TEDxSamonda Event Coming Up October,2019 "
+    />
+    <meta name="keywords" content="TEDxSamonda, October, 2019  " />
+    <meta name="author" content="TEDxSamonda" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta property="og:title" content="TEDx Samonda Event" />
+    <meta
+      property="og:description"
+      content="TEDx Samonda Event Coming Up October,2019"
+    />
+
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dxmewvier/image/upload/v1560159638/logo.jpg"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dxmewvier/image/upload/v1560159638/logo.jpg"
+    />
+
+    <title>Volunteers</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="volunteers bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white mb-5">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://res.cloudinary.com/dxmewvier/image/upload/v1560120390/texxx.png"
+            alt=""
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end "
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav  ">
+            <a class="nav-item nav-link  text-uppercase" href="./index.html"
+              >Home
+            </a>
+            <a class="nav-item nav-link text-uppercase" href="#">our team</a>
+            <a class="nav-item nav-link text-uppercase" href="#">Sponsors</a>
+            <a
+              class="nav-item nav-link text-uppercase"
+              aria-disabled="true"
+              ref="#"
+              >blog</a
+            >
+            <a
+              class="nav-item nav-link text-uppercase btn  bg-red text-white active "
+              href="./volunteers.html"
+            >
+              volunteer <span class="sr-only">(current)</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="volunteer-form">
+        <div class="container">
+          <div class="row">
+            <div class="offset-1 col-sm-10 col-md-8">
+              <form>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="firstName">First name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="firstName"
+                      placeholder="First name"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="lastName">Last name *</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="lastName"
+                      placeholder="Last name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="email">Email *</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="phoneNumber">Phone Number *</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="phoneNumber"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="hoursOfCommitment"
+                    >How many hours per week are you able to commit to
+                    TEDxSamonda *
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="hoursOfCommitment"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="experienceWithTED"
+                    >What's your experience with TED or TEDx</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="experienceWithTED"
+                    rows="3"
+                  ></textarea>
+                  <small id="emailHelp" class="form-text text-muted">Have you watched the videos? Attended TED or TEDx events either here, around town, or somewhere else?</small>
+
+                </div>
+
+
+                <div class="form-group">
+                  <label for="aboutMe"
+                    > Tell us a little about who you are. </label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="aboutMe"
+                    rows="3"
+                  ></textarea>
+
+                </div>
+                <div class="form-group ">
+                  <label for="inputState">How would you like to participate</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option> Branding and Communication </option>
+                    <option> Sponsorship and Partnership </option>
+                    <option> Logistics </option>
+                  </select>
+                </div>
+
+                <button class="btn bg-red text-white" type="submit">
+                  Submit form
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="footer" class="mt-5 bg-dark">
+        <div class="container">
+          <div class="row fill-40-viewport py-5 text-white-70 align-items-center">
+            <div class="col-12 col-md-4 order-sm-last order-md-first">
+              <ul class="list-unstyled">
+                <li class="">
+                  <h6 class="text-white"> &copy; 2019 TEDx Samonda </h6>
+                </li>
+                <li class="text-white">This independent TEDx event is operated under license from TED. Visit
+                  <a href="https://www.ted.com/" class="text-red" target="_blank" rel="noopener noreferrer">TED</a> for more
+                  info.
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 ">
+              <ul class="list-unstyled">
+                <li>
+                  <h6 class="lead text-white">Quick Links</h6>
+                </li>
+                <li class="text-red">Contact Us</li>
+                <li class="text-red">Blog</li>
+                <li class="text-red">Meet the Team</li>
+                <li class="text-red">Partners</li>
+      
+              </ul>
+            </div>
+            <!-- <div class="col-12 col-md-2">
+                    <ul class="list-unstyled">
+                      <li>
+                        <h6 class="lead ">Event</h6>
+                      </li>
+                      <li>Rich data</li>
+                      <li>Simple</li>
+                      <li>Real</li>
+                      <li>Social</li>
+                    </ul>
+                  </div> -->
+            <div class="col-12 col-md-2">
+              <ul class="list-unstyled d-flex ">
+      
+                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-2x fa-facebook m-3" aria-hidden="true"></i>
+                  </a> </li>
+                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-2x fa-twitter m-3" aria-hidden="true"></i>
+                  </a> </li>
+                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-2x fa-envelope m-3" aria-hidden="true"></i>
+                  </a> </li>
+                <li class=""> <a class="text-white" href="http://facebook.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-2x fa-instagram m-3" aria-hidden="true"></i>
+                  </a> </li>
+      
+              </ul>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+</html>
