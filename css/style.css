@@ -3,8 +3,8 @@
 }
 
 .text-red {
-  color: red;
+  color:  rgb(230, 43, 30);
 }
 .bg-red {
-  background-color: rgb(255, 106, 106);
+  background-color: rgb(230, 43, 30);
 }
