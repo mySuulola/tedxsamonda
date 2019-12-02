@@ -95,13 +95,13 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-12">
+            <!-- <div class="col-12">
               <p class="text-white text-center" style="font-size:30px;">
                 Application Closed at the moment. Thanks <br />
               </p>
-            </div>
+            </div> -->
 
-            <!-- <div class="offset-1 col-sm-10 col-md-8">
+          <div class="offset-1 col-sm-10 col-md-8">
               <form name="volunteer-form" method="POST" data-netlify="true">
                 <div class="form-row">
                   <div class="col-md-6 mb-3">
@@ -154,19 +154,41 @@
                   </div>
                 </div>
 
+
                 <div class="form-group">
                   <label class="text-white" for="reasonToJoinTeam"
-                    >Why do you want to join the team</label
+                    >Do you stay in Ibadan</label
                   >
-                  <textarea
-                    class="form-control"
-                    id="reasonToJoinTeam"
-                    name="reasonToJoinTeam"
-                    rows="3"
-                  ></textarea>
+                  <br>
+                  <div class="form-check form-check-inline">
+
+                      <input class="form-check-input" type="radio" name="basedInIbadan?" id="basedInIbadan" value="yes">
+                      <label class="form-check-label text-white-80" for="basedInIbadan">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input class="form-check-input" type="radio" name="basedInIbadan?" id="notBasedInIbadan" value="no">
+                      <label class="form-check-label text-white-80" for="notBasedInIbadan">No</label>
+                    </div>
                 </div>
 
                 <div class="form-group">
+                    <label class="text-white" for="reasonToJoinTeam"
+                      >Will you be fully available and commit to the event execution between December, 2018 till February, 2020</label
+                    >
+                    <br>
+                    <div class="form-check form-check-inline">
+
+                        <input class="form-check-input" type="radio" name="basedInIbadan?" id="basedInIbadan" value="yes">
+                        <label class="form-check-label text-white-80" for="basedInIbadan">Yes</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="basedInIbadan?" id="notBasedInIbadan" value="no">
+                        <label class="form-check-label  text-white-80" for="notBasedInIbadan">No</label>
+                      </div>
+
+                  </div>
+
+                <!-- <div class="form-group">
                   <label class="text-white" for="experienceWithTED"
                     >What's your experience with TED or TEDx</label
                   >
@@ -180,9 +202,9 @@
                     >Have you watched the videos? Attended TED or TEDx events
                     either here, around town, or somewhere else?</small
                   >
-                </div>
+                </div> -->
 
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label class="text-white" for="aboutMe">
                     Tell us a little about who you are.
                   </label>
@@ -192,8 +214,10 @@
                     name="aboutMe"
                     rows="3"
                   ></textarea>
-                </div>
-                <div class="form-group ">
+                </div> -->
+
+
+                <!-- <div class="form-group ">
                   <label class="text-white" for="inputState"
                     >How would you like to participate *</label
                   >
@@ -217,13 +241,13 @@
                     </option>
                     <option value="others"> Others </option>
                   </select>
-                </div>
+                </div> -->
 
                 <button class="btn bg-red text-white" type="submit">
                   Submit form
                 </button>
               </form>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>

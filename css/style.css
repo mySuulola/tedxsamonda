@@ -11,3 +11,7 @@
 .bg-black {
   background-color: rgb(0, 0, 0);
 }
+
+.text-white-80 {
+  color: rgb(114, 113, 113);
+}
